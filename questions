@@ -9,7 +9,7 @@ var main = function() {
   //generate random number between 0 & the length of the array
   var numRand = Math.floor(Math.random() * questions.length);
 //print to html:
-  $('#question').text(questions[numRand});
+  $('#question').text(questions[numRand]);
 //remove item from array so that the question will not be repeated
 questions.splice(numRand, 1);
 return false;
