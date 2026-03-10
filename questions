@@ -2,7 +2,7 @@ var main = function() {
   //array of questions
   var questions = [
       'test question'
-      ',a different question'
+    ,'a different question'
       ];
   //Function triggered when button is clicked 
   $('.btn').click(function() {
